@@ -5,9 +5,9 @@
 // Hoera!
 // Hoera!
 // ==========================================
-// for (let i = 0; i < 3; i++) {
-//     console.log("Hoera");
-// }
+for (let i = 0; i < 3; i++) {
+    console.log("Hoera!");
+}
 
 
 // ==========================================
@@ -20,10 +20,10 @@
 // klaar!
 // ==========================================
 
-// for (let i = 0; i < 4; i++) {
-//     console.log("Hoera");
-// }
-// console.log("Klaar")
+for (let i = 0; i < 4; i++) {
+    console.log("loop...");
+}
+console.log("Klaar")
 
 
 // ==========================================
@@ -63,4 +63,13 @@ for (let i = 0; i < 16; i++) {
 // >> 8
 // >> 9
 // ==========================================
+for (let i = 0; i < 10; i++) {
+    if (i < 3) {
+        console.log(i)
+    } else if (i<6) {
+        console.log('> '+i)
+    } else {
+        console.log('>> '+i)
+    }
+}
 
