@@ -6,6 +6,10 @@
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
 
+for (let i = 0, names.length -1, i++) {
+    console.log(names[i])
+}
+
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
 // console.log(names) geeft: ["Henk", "Piet", "Fred", "Joop"]
