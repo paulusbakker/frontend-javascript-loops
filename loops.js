@@ -6,7 +6,7 @@
 // Hoera!
 // ==========================================
 for (let i = 0; i < 3; i++) {
-    console.log("Hoera!")
+    console.log("Hoera!");
 }
 
 
@@ -21,9 +21,9 @@ for (let i = 0; i < 3; i++) {
 // ==========================================
 
 for (let i = 0; i < 4; i++) {
-    console.log("loop...")
+    console.log("loop...");
 }
-console.log("Klaar")
+console.log("Klaar");
 
 
 // ==========================================
@@ -43,7 +43,7 @@ for (let i = 0; i < 16; i++) {
     if (i % 2 === 0) {
         console.log(i, "is een even getal")
     } else {
-        console.log(i, "is een oneven getal")
+        console.log(i, "is een oneven getal");
     }
 }
 
@@ -66,10 +66,10 @@ for (let i = 0; i < 16; i++) {
 for (let i = 0; i < 10; i++) {
     if (i < 3) {
         console.log(i)
-    } else if (i<6) {
-        console.log('> '+i)
+    } else if (i < 6) {
+        console.log('> ' + i)
     } else {
-        console.log('>> '+i)
+        console.log('>> ' + i);
     }
 }
 
